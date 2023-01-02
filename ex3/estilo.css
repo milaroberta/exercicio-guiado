@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*** CARD NOTÌCIA ******************************/
+
+.card{
+
+    width: 400px;
+    background-color: rgb(255, 196, 0) ;
+
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 15px;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+    .fixado{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+
+        text-align: right;
+    }
+
+    .fixado img{
+        width: 25px;
+    }
+
+    .titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+
+        margin-top: 20px;
+    }
+
+    .subtitulo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+    .foto{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .corpo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .btLerNoticia{
+        background-color: green;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+
+        display: block;
+        width: 200px;
+        padding: 8px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .btLerNoticia:hover{
+        background-color: rgb(1, 182, 1);
+        color: rgb(9, 32, 95);
+
+    }
+
+    .data{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-style: italic;
+
+        margin-top: 20px;
+        border-top: solid 1px black;
+        padding-top: 5px;
+    }
+
+
+/*** FIM CARD NOTÌCIA ************************/
